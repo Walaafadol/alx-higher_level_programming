@@ -10,7 +10,7 @@ int is_palindrome(listint_t **head)
 {
 	if (head == NULL || *head == NULL)
 		return (1);
-	return aux_palind(head, *head);
+	return (aux_palind(head, *head));
 }
 /**
  * aux_palind - checks if a linked list is a palindrome
