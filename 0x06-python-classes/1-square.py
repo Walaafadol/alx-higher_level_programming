@@ -6,6 +6,8 @@ class Square:
 
     def __init__(self, size):
         """Initialises the data
+        
+
         Args:
             size: The first parameter.
         """
