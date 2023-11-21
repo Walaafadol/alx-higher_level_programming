@@ -4,6 +4,6 @@
 class Square:
     """square module."""
 
-    def __int__(self, size):
+    def __init__(self, size):
         """Initialises the data"""
         self.__size = size
