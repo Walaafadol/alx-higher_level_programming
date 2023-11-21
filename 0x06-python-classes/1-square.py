@@ -1,8 +1,8 @@
 #!/usr/bin/python3
-"""square module"""
+"""square module."""
 
 class Square:
-    """square module"""
+    """square module."""
 
     def __int__(self, size):
         """constructor.
