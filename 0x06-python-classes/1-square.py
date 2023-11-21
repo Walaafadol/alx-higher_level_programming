@@ -5,8 +5,5 @@ class Square:
     """square module."""
 
     def __int__(self, size):
-        """constructor.
-        args:
-            size: length f square.
-        """
+        """Initialises the data"""
         self.__size = size
