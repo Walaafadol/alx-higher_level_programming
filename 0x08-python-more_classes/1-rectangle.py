@@ -1,15 +1,14 @@
 #!/usr/bin/python3
 """Rectangle module"""
 def __init__(self, width=0, height=0):
-    """Initialises the data
-    args: width
-    """
+    """Initialises the data"""
     self.__width = width
     self.__height = height
     @property
     def width(self):
         """getter for the width"""
         return self.__width
+
     @width.setter
     def width(self, value):
         """setter for the width"""
@@ -30,7 +29,3 @@ def __init__(self, width=0, height=0):
         if value < 0:
             raise ValueError("height must be >= 0")
         self.__height = value
-
-
-
-
