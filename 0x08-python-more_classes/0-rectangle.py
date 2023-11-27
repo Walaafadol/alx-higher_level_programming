@@ -2,9 +2,6 @@
 """
 Rectangle module
 """
-
-
-
 class Rectangle:
-    """class  Rectangle"""
+    """class empty Rectangle"""
     pass
