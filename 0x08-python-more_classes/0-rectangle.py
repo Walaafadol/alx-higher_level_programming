@@ -1,11 +1,6 @@
 #!/usr/bin/python3
+"""Rectangle module
 """
-Rectangle module
-"""
-
-
-
-
 
 class Rectangle:
     """ class empty Rectangle """
