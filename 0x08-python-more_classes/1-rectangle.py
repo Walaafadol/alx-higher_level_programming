@@ -1,7 +1,11 @@
 #!/usr/bin/python3
 """Rectangle module"""
 def __init__(self, width=0, height=0):
-    """Initialises the data"""
+    """Initialises the data
+    Args:
+        width (int, optional): width of rectangle. Defaults to 0.
+        height (int, optional): height of rectangle. Defaults to 0.
+    """
     self.__width = width
     self.__height = height
     @property
