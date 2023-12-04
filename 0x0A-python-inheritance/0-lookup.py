@@ -1,9 +1,7 @@
 #!/usr/bin/python3
 """ Rectangle module"""
 def lookup(obj):
-    """ ookup object
-    arg:
-        obj (object): the argument
+    """ lookup object
     Returns:
         list: lists
     """
