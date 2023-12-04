@@ -1,8 +1,8 @@
 #!/usr/bin/python3
-""" Rectangle module"""
+"""lookup module"""
+
+
 def lookup(obj):
-    """ lookup object
-    Returns:
-        list: lists
-    """
+    """lookup method
+    Returns: a list of available attributes and methods of an object"""
     return dir(obj)
