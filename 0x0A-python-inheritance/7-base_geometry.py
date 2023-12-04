@@ -1,15 +1,16 @@
 #!/usr/bin/python3
-"""lookup module"""
+"""BaseGeometry class Module"""
 
 
-class BaseGeometry:
-    """basegeometry class """
+class BaseGeometry():
+    """BaseGeometry class"""
     def area(self):
-        """ method to compute the area"""
-        raise Exception('area() is not implemented')
+        """Method Raises an Exception"""
+        raise Exception("area() is not implemented")
+
     def integer_validator(self, name, value):
-        """ integer_validator """
+        """Method for validating value"""
         if type(value) != int:
-            raise TypeError('{} must be an integer'.format(name))
+            raise TypeError("{} must be an integer".format(name))
         if value <= 0:
-            raise ValueError('{} must be greater than 0'.format(name))
+            raise ValueError("{} must be greater than 0".format(name))
