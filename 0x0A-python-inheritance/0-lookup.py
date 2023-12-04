@@ -3,8 +3,8 @@
 def lookup(obj):
     """ ookup object
     arg:
-        obj (object) : the argument
+        obj (object): the argument
     Returns:
-        list : lists
+        list: lists
     """
     return dir(obj)
